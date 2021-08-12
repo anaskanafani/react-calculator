@@ -19,6 +19,7 @@ class Main extends React.Component {
           onClick={(number) => {
             this.setState({ value: this.state.value + number.target.value});
           }}
+          clear={() => {this.setState({ value: ""})}}
           value={this.state.value}
           button={
             <button

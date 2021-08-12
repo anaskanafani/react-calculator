@@ -70,7 +70,7 @@ class Calculator extends React.Component {
         <button value="." className="decimal btn" onClick={this.props.onClick}>
           .
         </button>
-        <button className="clear" onClick={this.props.onClick}>
+        <button className="clear" onClick={this.props.clear}>
           AC
         </button>
         {this.props.button}
